@@ -25,7 +25,7 @@ extension UIViewController {
     return storyboard.instantiateViewController(withIdentifier: self.identifier) as? Self
   }
 
-  func topMostViewController() -> UIViewController? {
+  public func topMostViewController() -> UIViewController? {
     if self.presentedViewController == nil {
       return self
     }

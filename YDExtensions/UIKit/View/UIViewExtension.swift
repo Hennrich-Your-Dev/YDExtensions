@@ -9,29 +9,29 @@ import UIKit
 
 extension UIView {
 
-  class var identifier: String {
+  public class var identifier: String {
     return String(describing: self)
   }
 
-  func loadNib() -> UIView {
+  public func loadNib() -> UIView {
     let bundle = Bundle.init(for: type(of: self))
     let nibName = Self.description().components(separatedBy: ".").last!
     let nib = UINib(nibName: nibName, bundle: bundle)
     return nib.instantiate(withOwner: self, options: nil).first as! UIView
   }
 
-  class func loadFromNibNamed(
+  public class func loadFromNibNamed(
     _ nibNamed: String,
     _ bundle: Bundle? = Bundle.main
   ) -> UINib {
     return UINib(nibName: nibNamed, bundle: bundle)
   }
 
-  class func loadNib(_ bundle: Bundle? = Bundle.main) -> UINib {
+  public class func loadNib(_ bundle: Bundle? = Bundle.main) -> UINib {
     return loadFromNibNamed(self.identifier, bundle)
   }
 
-  class func loadFromNib(bundle: Bundle? = Bundle.main) -> UIView? {
+  public class func loadFromNib(bundle: Bundle? = Bundle.main) -> UIView? {
     return loadFromNibNamed(self.identifier, bundle).instantiate(
       withOwner: nil,
       options: nil
@@ -42,7 +42,7 @@ extension UIView {
 extension UIView {
 
   // MARK: Loading
-  func startLoader(message: String? = nil) {
+  public func startLoader(message: String? = nil) {
     let viewLoading = UIView(frame: self.frame)
     viewLoading.tag = 99999
     viewLoading.backgroundColor = .white
@@ -59,7 +59,7 @@ extension UIView {
     self.bringSubviewToFront(viewLoading)
   }
 
-  func stopLoader() {
+  public func stopLoader() {
     self.subviews.forEach { view in
       if view.tag == 99999 {
         view.removeFromSuperview()

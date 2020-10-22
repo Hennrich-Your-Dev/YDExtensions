@@ -8,7 +8,7 @@ import UIKit
 
 extension UIAlertController {
 
-  func presentInOwnWindow(animated: Bool, completion: (() -> Void)?) {
+  public func presentInOwnWindow(animated: Bool, completion: (() -> Void)?) {
       let alertWindow = UIWindow(frame: UIScreen.main.bounds)
       alertWindow.rootViewController = UIViewController()
       alertWindow.windowLevel = UIWindow.Level.alert + 1
@@ -18,7 +18,7 @@ extension UIAlertController {
                                               completion: completion)
   }
 
-  class func showAlert(
+  public class func showAlert(
     title: String = "Alerta",
     message: String
   ) {
