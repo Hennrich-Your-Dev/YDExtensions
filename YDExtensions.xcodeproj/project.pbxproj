@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
 		C1FC70C92541CBB40036AFD7 /* YDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FC70C72541CBB40036AFD7 /* YDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70D32541CC030036AFD7 /* UIViewControllerExtension.swift */; };
 		C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70DC2541CE180036AFD7 /* UIViewExtension.swift */; };
@@ -20,6 +21,7 @@
 		0C3246B3581CF712AF22CB55 /* Pods-YDExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.release.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.release.xcconfig"; sourceTree = "<group>"; };
 		A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.debug.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		C1FC70C42541CBB40036AFD7 /* YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC70C72541CBB40036AFD7 /* YDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExtensions.h; sourceTree = "<group>"; };
 		C1FC70C82541CBB40036AFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */,
 				0C3246B3581CF712AF22CB55 /* Pods-YDExtensions.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +59,14 @@
 				BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C132B41125434C9400955238 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				C132B41225434CA200955238 /* UIDeviceExtension.swift */,
+			);
+			path = Device;
 			sourceTree = "<group>";
 		};
 		C1FC70BA2541CBB30036AFD7 = {
@@ -92,6 +101,7 @@
 		C1FC70D02541CBBF0036AFD7 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C132B41125434C9400955238 /* Device */,
 				C1FC70E82541CF6E0036AFD7 /* CALayer */,
 				C1FC70E32541CEB30036AFD7 /* AlertController */,
 				C1FC70DF2541CE590036AFD7 /* Color */,
@@ -256,6 +266,7 @@
 				C1FC70EA2541CF7E0036AFD7 /* CALayerExtension.swift in Sources */,
 				C1FC70E52541CEC20036AFD7 /* UIAlertControllerExtension.swift in Sources */,
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
+				C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */,
 				C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */,
 				C1FC70E12541CE660036AFD7 /* UIColorExtension.swift in Sources */,
 			);
