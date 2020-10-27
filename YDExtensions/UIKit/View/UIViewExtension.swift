@@ -7,7 +7,7 @@
 // swiftlint:disable force_unwrapping force_cast
 import UIKit
 
-extension UIView {
+public extension UIView {
 
   public class var identifier: String {
     return String(describing: self)
@@ -39,10 +39,10 @@ extension UIView {
   }
 }
 
-extension UIView {
+public extension UIView {
 
   // MARK: Loading
-  public func startLoader(message: String? = nil) {
+  func startLoader(message: String? = nil) {
     let viewLoading = UIView(frame: self.frame)
     viewLoading.tag = 99999
     viewLoading.backgroundColor = .white
@@ -59,7 +59,7 @@ extension UIView {
     self.bringSubviewToFront(viewLoading)
   }
 
-  public func stopLoader() {
+  func stopLoader() {
     self.subviews.forEach { view in
       if view.tag == 99999 {
         view.removeFromSuperview()

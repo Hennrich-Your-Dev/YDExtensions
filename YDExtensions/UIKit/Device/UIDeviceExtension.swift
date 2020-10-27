@@ -15,4 +15,11 @@ public extension UIDevice {
     }
     return false
   }
+
+  static let iPhone5 = UIScreen.main.nativeBounds.height == 1136
+
+  static let iPhone678 = UIScreen.main.nativeBounds.height == 1334
+
+  static let iPhonePlus = UIScreen.main.nativeBounds.height == 2208
+  
 }
