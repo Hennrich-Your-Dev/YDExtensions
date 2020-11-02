@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
 		C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1777407254FA70000BD552C /* EncodableExtension.swift */; };
+		C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177742D254FDDEC00BD552C /* ArrayExtension.swift */; };
 		C1FC70C92541CBB40036AFD7 /* YDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FC70C72541CBB40036AFD7 /* YDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70D32541CC030036AFD7 /* UIViewControllerExtension.swift */; };
 		C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70DC2541CE180036AFD7 /* UIViewExtension.swift */; };
@@ -24,6 +25,7 @@
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		C1777407254FA70000BD552C /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		C177742D254FDDEC00BD552C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		C1FC70C42541CBB40036AFD7 /* YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC70C72541CBB40036AFD7 /* YDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExtensions.h; sourceTree = "<group>"; };
 		C1FC70C82541CBB40036AFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 			path = Encodable;
 			sourceTree = "<group>";
 		};
+		C177742C254FDDE200BD552C /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C177742D254FDDEC00BD552C /* ArrayExtension.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		C1FC70BA2541CBB30036AFD7 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		C1FC70D12541CBC30036AFD7 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				C177742C254FDDE200BD552C /* Array */,
 				C1777406254FA6EE00BD552C /* Encodable */,
 			);
 			path = Foundation;
@@ -277,6 +288,7 @@
 				C1FC70EA2541CF7E0036AFD7 /* CALayerExtension.swift in Sources */,
 				C1FC70E52541CEC20036AFD7 /* UIAlertControllerExtension.swift in Sources */,
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
+				C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */,
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
 				C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */,
 				C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */,
