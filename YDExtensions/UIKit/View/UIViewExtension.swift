@@ -9,29 +9,29 @@ import UIKit
 
 public extension UIView {
 
-  public class var identifier: String {
+  class var identifier: String {
     return String(describing: self)
   }
 
-  public func loadNib() -> UIView {
+  func loadNib() -> UIView {
     let bundle = Bundle.init(for: type(of: self))
     let nibName = Self.description().components(separatedBy: ".").last!
     let nib = UINib(nibName: nibName, bundle: bundle)
     return nib.instantiate(withOwner: self, options: nil).first as! UIView
   }
 
-  public class func loadFromNibNamed(
+  class func loadFromNibNamed(
     _ nibNamed: String,
     _ bundle: Bundle? = Bundle.main
   ) -> UINib {
     return UINib(nibName: nibNamed, bundle: bundle)
   }
 
-  public class func loadNib(_ bundle: Bundle? = Bundle.main) -> UINib {
+  class func loadNib(_ bundle: Bundle? = Bundle.main) -> UINib {
     return loadFromNibNamed(self.identifier, bundle)
   }
 
-  public class func loadFromNib(bundle: Bundle? = Bundle.main) -> UIView? {
+  class func loadFromNib(bundle: Bundle? = Bundle.main) -> UIView? {
     return loadFromNibNamed(self.identifier, bundle).instantiate(
       withOwner: nil,
       options: nil

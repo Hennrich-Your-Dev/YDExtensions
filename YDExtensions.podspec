@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "YDExtensions"
-  spec.version          = "1.0.6"
+  spec.version          = "1.0.7"
   spec.summary          = "A short description of YDExtensions."
   spec.license          = "MIT"
   spec.author           = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
