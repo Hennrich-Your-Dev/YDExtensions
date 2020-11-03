@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array {
+public extension Array {
 
   func at(_ index: Int) -> Element? {
     return 0 <= index && index < count ? self[index] : nil

@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 
   func matches(_ expression: String) -> Bool {
     if let range = range(of: expression, options: .regularExpression, range: nil, locale: nil) {
