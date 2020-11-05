@@ -12,6 +12,7 @@
 		C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177742D254FDDEC00BD552C /* ArrayExtension.swift */; };
 		C17774492550659400BD552C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17774482550659400BD552C /* StringExtension.swift */; };
 		C177744E2550D03F00BD552C /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177744D2550D03F00BD552C /* DateExtension.swift */; };
+		C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B86425543C6900A0EAAA /* UIWindowExtension.swift */; };
 		C1FC70C92541CBB40036AFD7 /* YDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FC70C72541CBB40036AFD7 /* YDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70D32541CC030036AFD7 /* UIViewControllerExtension.swift */; };
 		C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70DC2541CE180036AFD7 /* UIViewExtension.swift */; };
@@ -30,6 +31,7 @@
 		C177742D254FDDEC00BD552C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		C17774482550659400BD552C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C177744D2550D03F00BD552C /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C183B86425543C6900A0EAAA /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		C1FC70C42541CBB40036AFD7 /* YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC70C72541CBB40036AFD7 /* YDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExtensions.h; sourceTree = "<group>"; };
 		C1FC70C82541CBB40036AFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			path = Date;
 			sourceTree = "<group>";
 		};
+		C183B86325543C5B00A0EAAA /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				C183B86425543C6900A0EAAA /* UIWindowExtension.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
 		C1FC70BA2541CBB30036AFD7 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		C1FC70D02541CBBF0036AFD7 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C183B86325543C5B00A0EAAA /* Window */,
 				C132B41125434C9400955238 /* Device */,
 				C1FC70E82541CF6E0036AFD7 /* CALayer */,
 				C1FC70E32541CEB30036AFD7 /* AlertController */,
@@ -312,6 +323,7 @@
 				C1FC70E52541CEC20036AFD7 /* UIAlertControllerExtension.swift in Sources */,
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
 				C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */,
+				C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */,
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
 				C17774492550659400BD552C /* StringExtension.swift in Sources */,
 				C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */,
