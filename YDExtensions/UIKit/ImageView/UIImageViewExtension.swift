@@ -11,14 +11,16 @@ import KingfisherWebP
 
 public extension UIImageView {
   func setImage(_ imageStringOpt: String?) {
-    guard let imageString = imageStringOpt else {
+    guard let imageString = imageStringOpt,
+          let escapedString = imageString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
+    else {
       return
     }
 
     kf.setImage(
-      with: URL(string: imageString),
+      with: URL(string: escapedString),
       options: [
-//        .progressiveJPEG(ImageProgressive(isBlur: false, isFastestScan: false, scanInterval: 0.1)),
+        .progressiveJPEG(ImageProgressive(isBlur: false, isFastestScan: false, scanInterval: 0.1)),
         .processor(WebPProcessor.default)
       ],
       completionHandler: { [weak self] result in
