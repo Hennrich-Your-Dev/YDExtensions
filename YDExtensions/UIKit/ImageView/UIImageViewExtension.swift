@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 import KingfisherWebP
 
-extension UIImageView {
+public extension UIImageView {
   func setImage(_ imageStringOpt: String?) {
     guard let imageString = imageStringOpt else {
       return
