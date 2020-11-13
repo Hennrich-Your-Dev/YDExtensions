@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "YDExtensions"
-  spec.version          = "1.0.13"
+  spec.version          = "1.0.14"
   spec.summary          = "A short description of YDExtensions."
   spec.license          = "MIT"
   spec.author           = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
@@ -14,4 +14,6 @@ Pod::Spec.new do |spec|
   spec.source_files     = "YDExtensions/**/*.{h,m,swift}"
   spec.swift_version    = "5.0"
 
+  spec.dependency        "Kingfisher", "~> 5.0"
+  spec.dependency        "KingfisherWebP"
 end

@@ -6,5 +6,7 @@ target 'YDExtensions' do
   use_frameworks!
 
   # Pods for YDExtensions
+  pod "Kingfisher", "~> 5.0"
+  pod "KingfisherWebP"
 
 end
