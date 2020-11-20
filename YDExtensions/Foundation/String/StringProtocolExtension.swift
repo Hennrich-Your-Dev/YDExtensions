@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension StringProtocol {
+public extension StringProtocol {
   func index<S: StringProtocol>(of string: S, options: String.CompareOptions = []) -> Index? {
     range(of: string, options: options)?.lowerBound
   }
