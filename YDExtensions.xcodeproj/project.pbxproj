@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C120DCF225687A44004FE088 /* StringProtocolExtension.swift */; };
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
 		C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1777407254FA70000BD552C /* EncodableExtension.swift */; };
 		C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177742D254FDDEC00BD552C /* ArrayExtension.swift */; };
@@ -27,6 +28,7 @@
 		0C3246B3581CF712AF22CB55 /* Pods-YDExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.release.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.release.xcconfig"; sourceTree = "<group>"; };
 		A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.debug.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C120DCF225687A44004FE088 /* StringProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocolExtension.swift; sourceTree = "<group>"; };
 		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		C1777407254FA70000BD552C /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
 		C177742D254FDDEC00BD552C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C17774482550659400BD552C /* StringExtension.swift */,
+				C120DCF225687A44004FE088 /* StringProtocolExtension.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			files = (
 				C1FC70EA2541CF7E0036AFD7 /* CALayerExtension.swift in Sources */,
 				C177744E2550D03F00BD552C /* DateExtension.swift in Sources */,
+				C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */,
 				C1A44868255F2A400067F2BF /* UIImageViewExtension.swift in Sources */,
 				C1FC70E52541CEC20036AFD7 /* UIAlertControllerExtension.swift in Sources */,
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
