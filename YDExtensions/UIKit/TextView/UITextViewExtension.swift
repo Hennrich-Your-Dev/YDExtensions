@@ -10,8 +10,7 @@ import UIKit
 public extension UITextView {
   func addButtonNext(target: Any?, buttonTitle: String = "Continuar", action: Selector?) {
     let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 100, height: 56))
-    toolBar.backgroundColor = UIColor.Zeplin.redBranding
-    toolBar.barTintColor = UIColor.Zeplin.redBranding
+
     toolBar.barStyle = UIBarStyle.default
     toolBar.layer.borderColor = UIColor.clear.cgColor
     toolBar.clipsToBounds = true
@@ -25,7 +24,7 @@ public extension UITextView {
                                                 style: .done,
                                                 target: target,
                                                 action: action)
-    next.tintColor = UIColor.Zeplin.greySurface
+    next.tintColor = UIColor.Zeplin.redBranding
 
     toolBar.items = [ flexSpace, flexSpace, next ]
     toolBar.sizeToFit()
