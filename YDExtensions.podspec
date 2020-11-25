@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "YDExtensions"
-  spec.version          = "1.0.18"
+  spec.version          = "1.0.19"
   spec.summary          = "A short description of YDExtensions."
   spec.license          = "MIT"
   spec.author           = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.swift_version    = "5.0"
 
   spec.dependency        "Kingfisher", "~> 5.0"
-  spec.dependency        "KingfisherWebP"
+  spec.dependency        "KingfisherWebP", "1.0.0"
 end
