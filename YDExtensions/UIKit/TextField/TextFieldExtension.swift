@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
   func addButtonNext(target: Any?, buttonTitle: String = "Continuar", action: Selector?) {
     let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 100, height: 56))
     toolBar.backgroundColor = UIColor.Zeplin.redBranding
