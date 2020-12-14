@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C120DCF225687A44004FE088 /* StringProtocolExtension.swift */; };
+		C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12418DB25879830006227D6 /* UILabelExtension.swift */; };
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
 		C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1777407254FA70000BD552C /* EncodableExtension.swift */; };
 		C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177742D254FDDEC00BD552C /* ArrayExtension.swift */; };
@@ -31,6 +32,7 @@
 		A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.debug.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C120DCF225687A44004FE088 /* StringProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocolExtension.swift; sourceTree = "<group>"; };
+		C12418DB25879830006227D6 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		C1777407254FA70000BD552C /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
 		C177742D254FDDEC00BD552C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 				BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12418DA2587981E006227D6 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				C12418DB25879830006227D6 /* UILabelExtension.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 		C132B41125434C9400955238 /* Device */ = {
@@ -184,6 +194,7 @@
 		C1FC70D02541CBBF0036AFD7 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C12418DA2587981E006227D6 /* Label */,
 				C17B71F6256EA32B00BDE92C /* TextField */,
 				C17B71F5256EA32600BDE92C /* TextView */,
 				C1A44866255F2A280067F2BF /* ImageView */,
@@ -366,6 +377,7 @@
 				C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */,
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
 				C17774492550659400BD552C /* StringExtension.swift in Sources */,
+				C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */,
 				C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */,
 				C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */,
 				C1FC70E12541CE660036AFD7 /* UIColorExtension.swift in Sources */,
