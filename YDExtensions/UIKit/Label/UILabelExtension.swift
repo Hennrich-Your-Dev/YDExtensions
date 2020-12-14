@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
   func addCharacterSpacing(spacing: Double = -0.2) {
     if let labelText = text,
       !labelText.isEmpty {
