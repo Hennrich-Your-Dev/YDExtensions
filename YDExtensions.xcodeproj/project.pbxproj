@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50BC55C25AA02EE00CAC9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50BC55B25AA02EE00CAC9C1 /* Assets.xcassets */; };
 		C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C120DCF225687A44004FE088 /* StringProtocolExtension.swift */; };
 		C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12418DB25879830006227D6 /* UILabelExtension.swift */; };
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0C3246B3581CF712AF22CB55 /* Pods-YDExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.release.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.release.xcconfig"; sourceTree = "<group>"; };
+		A50BC55B25AA02EE00CAC9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.debug.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C120DCF225687A44004FE088 /* StringProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocolExtension.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				C1FC70D02541CBBF0036AFD7 /* UIKit */,
 				C1FC70C72541CBB40036AFD7 /* YDExtensions.h */,
 				C1FC70C82541CBB40036AFD7 /* Info.plist */,
+				A50BC55B25AA02EE00CAC9C1 /* Assets.xcassets */,
 			);
 			path = YDExtensions;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50BC55C25AA02EE00CAC9C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
