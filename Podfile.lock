@@ -1,8 +1,8 @@
 PODS:
-  - Kingfisher (5.15.7):
-    - Kingfisher/Core (= 5.15.7)
-  - Kingfisher/Core (5.15.7)
-  - KingfisherWebP (1.0.0):
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - KingfisherWebP (1.1.0):
     - Kingfisher (~> 5.8)
     - libwebp (>= 0.5.0)
   - libwebp (1.1.0):
@@ -26,10 +26,10 @@ SPEC REPOS:
     - libwebp
 
 SPEC CHECKSUMS:
-  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
-  KingfisherWebP: b1ed1dbc5e52547c5bf5f583dd5c46346f97320f
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  KingfisherWebP: 0768e0c00bf9746de9ee5b22a795e9504345f258
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
 
 PODFILE CHECKSUM: ea6d299c6ac081ebf293edf9eb8fc562f4af550a
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
