@@ -19,6 +19,7 @@
 		C17B71FC256EA66D00BDE92C /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B71FB256EA66D00BDE92C /* TextFieldExtension.swift */; };
 		C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B86425543C6900A0EAAA /* UIWindowExtension.swift */; };
 		C1A44868255F2A400067F2BF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A44867255F2A400067F2BF /* UIImageViewExtension.swift */; };
+		C1EE5E0D25D9610A00C6BB3F /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EE5E0C25D9610A00C6BB3F /* CGFloatExtension.swift */; };
 		C1FC70C92541CBB40036AFD7 /* YDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FC70C72541CBB40036AFD7 /* YDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70D32541CC030036AFD7 /* UIViewControllerExtension.swift */; };
 		C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70DC2541CE180036AFD7 /* UIViewExtension.swift */; };
@@ -44,6 +45,7 @@
 		C17B71FB256EA66D00BDE92C /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		C183B86425543C6900A0EAAA /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		C1A44867255F2A400067F2BF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C1EE5E0C25D9610A00C6BB3F /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		C1FC70C42541CBB40036AFD7 /* YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC70C72541CBB40036AFD7 /* YDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExtensions.h; sourceTree = "<group>"; };
 		C1FC70C82541CBB40036AFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,6 +166,14 @@
 			path = ImageView;
 			sourceTree = "<group>";
 		};
+		C1EE5E0B25D960EF00C6BB3F /* CGFloat */ = {
+			isa = PBXGroup;
+			children = (
+				C1EE5E0C25D9610A00C6BB3F /* CGFloatExtension.swift */,
+			);
+			path = CGFloat;
+			sourceTree = "<group>";
+		};
 		C1FC70BA2541CBB30036AFD7 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +225,7 @@
 		C1FC70D12541CBC30036AFD7 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				C1EE5E0B25D960EF00C6BB3F /* CGFloat */,
 				C177744C2550D03400BD552C /* Date */,
 				C17774472550658A00BD552C /* String */,
 				C177742C254FDDE200BD552C /* Array */,
@@ -378,6 +389,7 @@
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
 				C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */,
 				C17B71F8256EA48F00BDE92C /* UITextViewExtension.swift in Sources */,
+				C1EE5E0D25D9610A00C6BB3F /* CGFloatExtension.swift in Sources */,
 				C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */,
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
 				C17774492550659400BD552C /* StringExtension.swift in Sources */,
