@@ -19,6 +19,7 @@
 		C17B71FC256EA66D00BDE92C /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B71FB256EA66D00BDE92C /* TextFieldExtension.swift */; };
 		C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B86425543C6900A0EAAA /* UIWindowExtension.swift */; };
 		C1A44868255F2A400067F2BF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A44867255F2A400067F2BF /* UIImageViewExtension.swift */; };
+		C1E424A22600DCDE00383A57 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E424A12600DCDE00383A57 /* UIImageExtension.swift */; };
 		C1EE5E0D25D9610A00C6BB3F /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EE5E0C25D9610A00C6BB3F /* CGFloatExtension.swift */; };
 		C1FC70C92541CBB40036AFD7 /* YDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FC70C72541CBB40036AFD7 /* YDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC70D32541CC030036AFD7 /* UIViewControllerExtension.swift */; };
@@ -45,6 +46,7 @@
 		C17B71FB256EA66D00BDE92C /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		C183B86425543C6900A0EAAA /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		C1A44867255F2A400067F2BF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C1E424A12600DCDE00383A57 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		C1EE5E0C25D9610A00C6BB3F /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 		C1FC70C42541CBB40036AFD7 /* YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC70C72541CBB40036AFD7 /* YDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDExtensions.h; sourceTree = "<group>"; };
@@ -166,6 +168,14 @@
 			path = ImageView;
 			sourceTree = "<group>";
 		};
+		C1E424A02600DCB600383A57 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C1E424A12600DCDE00383A57 /* UIImageExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		C1EE5E0B25D960EF00C6BB3F /* CGFloat */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +220,7 @@
 				C12418DA2587981E006227D6 /* Label */,
 				C17B71F6256EA32B00BDE92C /* TextField */,
 				C17B71F5256EA32600BDE92C /* TextView */,
+				C1E424A02600DCB600383A57 /* Image */,
 				C1A44866255F2A280067F2BF /* ImageView */,
 				C183B86325543C5B00A0EAAA /* Window */,
 				C132B41125434C9400955238 /* Device */,
@@ -385,6 +396,7 @@
 				C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */,
 				C17B71FC256EA66D00BDE92C /* TextFieldExtension.swift in Sources */,
 				C1A44868255F2A400067F2BF /* UIImageViewExtension.swift in Sources */,
+				C1E424A22600DCDE00383A57 /* UIImageExtension.swift in Sources */,
 				C1FC70E52541CEC20036AFD7 /* UIAlertControllerExtension.swift in Sources */,
 				C1FC70DD2541CE180036AFD7 /* UIViewExtension.swift in Sources */,
 				C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */,
