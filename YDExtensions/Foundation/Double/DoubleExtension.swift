@@ -5,14 +5,15 @@
 //  Created by Douglas Hennrich on 05/04/21.
 //
 
-import Foundation
+import UIKit
 
 public extension Double {
   var formatedPrice: String? {
     let formatter = NumberFormatter()
-    formatter.numberStyle = .currency
+    formatter.alwaysShowsDecimalSeparator = true
     formatter.locale = Locale(identifier: "pt_BR")
+    formatter.numberStyle = .currency
 
-    return formatter.string(from: NSNumber(value: self))
+    return formatter.string(for: self)
   }
 }
