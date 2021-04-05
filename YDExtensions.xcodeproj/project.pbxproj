@@ -11,6 +11,7 @@
 		C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C120DCF225687A44004FE088 /* StringProtocolExtension.swift */; };
 		C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12418DB25879830006227D6 /* UILabelExtension.swift */; };
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
+		C16CCDB7261B7A6200D6938C /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CCDB6261B7A6200D6938C /* DoubleExtension.swift */; };
 		C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1777407254FA70000BD552C /* EncodableExtension.swift */; };
 		C177742E254FDDEC00BD552C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177742D254FDDEC00BD552C /* ArrayExtension.swift */; };
 		C17774492550659400BD552C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17774482550659400BD552C /* StringExtension.swift */; };
@@ -38,6 +39,7 @@
 		C120DCF225687A44004FE088 /* StringProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocolExtension.swift; sourceTree = "<group>"; };
 		C12418DB25879830006227D6 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		C16CCDB6261B7A6200D6938C /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		C1777407254FA70000BD552C /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
 		C177742D254FDDEC00BD552C /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		C17774482550659400BD552C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 				C132B41225434CA200955238 /* UIDeviceExtension.swift */,
 			);
 			path = Device;
+			sourceTree = "<group>";
+		};
+		C16CCDB5261B7A5700D6938C /* Double */ = {
+			isa = PBXGroup;
+			children = (
+				C16CCDB6261B7A6200D6938C /* DoubleExtension.swift */,
+			);
+			path = Double;
 			sourceTree = "<group>";
 		};
 		C1777406254FA6EE00BD552C /* Encodable */ = {
@@ -236,11 +246,12 @@
 		C1FC70D12541CBC30036AFD7 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				C177742C254FDDE200BD552C /* Array */,
 				C1EE5E0B25D960EF00C6BB3F /* CGFloat */,
 				C177744C2550D03400BD552C /* Date */,
-				C17774472550658A00BD552C /* String */,
-				C177742C254FDDE200BD552C /* Array */,
+				C16CCDB5261B7A5700D6938C /* Double */,
 				C1777406254FA6EE00BD552C /* Encodable */,
+				C17774472550658A00BD552C /* String */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -406,6 +417,7 @@
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
 				C17774492550659400BD552C /* StringExtension.swift in Sources */,
 				C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */,
+				C16CCDB7261B7A6200D6938C /* DoubleExtension.swift in Sources */,
 				C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */,
 				C1FC70D42541CC030036AFD7 /* UIViewControllerExtension.swift in Sources */,
 				C1FC70E12541CE660036AFD7 /* UIColorExtension.swift in Sources */,
