@@ -13,13 +13,13 @@ public extension UIImageView {
   func setImage(
     _ imageStringOpt: String?,
     placeholder: UIImage? = nil,
-    onCompletion completion: ((Bool) -> Void)? = nil
+    onCompletion completion: ((RetrieveImageResult?) -> Void)? = nil
   ) {
     guard let imageString = imageStringOpt,
           let escapedString = imageString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
     else {
       image = placeholder
-      completion?(false)
+      completion?(nil)
       return
     }
 
@@ -44,10 +44,10 @@ public extension UIImageView {
             let newWidth = self.frame.height * ratio
             self.frame.size = CGSize(width: newWidth, height: self.frame.height)
           }
-          completion?(true)
+          completion?(imageSuccess)
         } else {
           self.image = placeholder
-          completion?(false)
+          completion?(nil)
         }
 
       }
