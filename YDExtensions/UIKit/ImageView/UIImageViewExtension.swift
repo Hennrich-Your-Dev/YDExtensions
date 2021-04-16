@@ -19,6 +19,7 @@ public extension UIImageView {
           let escapedString = imageString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
     else {
       image = placeholder
+      completion?(false)
       return
     }
 
