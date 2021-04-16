@@ -10,7 +10,11 @@ import Kingfisher
 import KingfisherWebP
 
 public extension UIImageView {
-  func setImage(_ imageStringOpt: String?, placeholder: UIImage? = nil) {
+  func setImage(
+    _ imageStringOpt: String?,
+    placeholder: UIImage? = nil,
+    onCompletion completion: ((Bool) -> Void)? = nil
+  ) {
     guard let imageString = imageStringOpt,
           let escapedString = imageString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)
     else {
@@ -39,8 +43,12 @@ public extension UIImageView {
             let newWidth = self.frame.height * ratio
             self.frame.size = CGSize(width: newWidth, height: self.frame.height)
           }
+          completion?(true)
+        } else {
+          self.image = placeholder
+          completion?(false)
         }
-        //
+
       }
     )
   }
