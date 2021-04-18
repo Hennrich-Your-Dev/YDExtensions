@@ -19,12 +19,12 @@ public extension Array {
   }
 }
 
-protocol Reorderable {
+public protocol Reorderable {
   associatedtype OrderElement: Equatable
   var orderElement: OrderElement { get }
 }
 
-extension Array where Element: Reorderable {
+public extension Array where Element: Reorderable {
   func reorder(by preferredOrder: [Element.OrderElement]) -> [Element] {
     sorted {
       guard let first = preferredOrder.firstIndex(of: $0.orderElement) else {
