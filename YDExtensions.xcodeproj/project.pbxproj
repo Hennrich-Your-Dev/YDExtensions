@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A50BC55C25AA02EE00CAC9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50BC55B25AA02EE00CAC9C1 /* Assets.xcassets */; };
+		C1002B2726479C4900F8FBD5 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1002B2626479C4900F8FBD5 /* URL+Extension.swift */; };
 		C120DCF325687A44004FE088 /* StringProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C120DCF225687A44004FE088 /* StringProtocolExtension.swift */; };
 		C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12418DB25879830006227D6 /* UILabelExtension.swift */; };
 		C132B41325434CA200955238 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132B41225434CA200955238 /* UIDeviceExtension.swift */; };
@@ -36,6 +37,7 @@
 		A50BC55B25AA02EE00CAC9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A797CE50A06A4E6201978229 /* Pods-YDExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDExtensions.debug.xcconfig"; path = "Target Support Files/Pods-YDExtensions/Pods-YDExtensions.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1002B2626479C4900F8FBD5 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		C120DCF225687A44004FE088 /* StringProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocolExtension.swift; sourceTree = "<group>"; };
 		C12418DB25879830006227D6 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		C132B41225434CA200955238 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 				BDA9B27108F55689A04D19D6 /* Pods_YDExtensions.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1002B2526479C2900F8FBD5 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				C1002B2626479C4900F8FBD5 /* URL+Extension.swift */,
+			);
+			path = URL;
 			sourceTree = "<group>";
 		};
 		C12418DA2587981E006227D6 /* Label */ = {
@@ -252,6 +262,7 @@
 				C16CCDB5261B7A5700D6938C /* Double */,
 				C1777406254FA6EE00BD552C /* Encodable */,
 				C17774472550658A00BD552C /* String */,
+				C1002B2526479C2900F8FBD5 /* URL */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -415,6 +426,7 @@
 				C1EE5E0D25D9610A00C6BB3F /* CGFloatExtension.swift in Sources */,
 				C183B86525543C6900A0EAAA /* UIWindowExtension.swift in Sources */,
 				C1777408254FA70000BD552C /* EncodableExtension.swift in Sources */,
+				C1002B2726479C4900F8FBD5 /* URL+Extension.swift in Sources */,
 				C17774492550659400BD552C /* StringExtension.swift in Sources */,
 				C12418DC25879830006227D6 /* UILabelExtension.swift in Sources */,
 				C16CCDB7261B7A6200D6938C /* DoubleExtension.swift in Sources */,
